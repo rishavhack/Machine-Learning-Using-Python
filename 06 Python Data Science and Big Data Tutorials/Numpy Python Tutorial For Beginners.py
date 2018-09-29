@@ -36,15 +36,6 @@ arr
 # In[6]:
 
 
-#Now Check the speed of two list
-get_ipython().magic(u'time for _ in range(10):    [item*3 for item in pythonList]')
-
-
-# In[7]:
-
-
-get_ipython().magic(u'time for _ in range(10):    arr = arr*3')
-
 
 # In[8]:
 
