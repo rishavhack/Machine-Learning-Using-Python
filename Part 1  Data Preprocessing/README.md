@@ -1,6 +1,6 @@
-## Data Preprocessing
+# Data Preprocessing
 
-### Importing Libraries
+## Importing Libraries
 
 <ul>
 	<li>numpy</li>
@@ -10,7 +10,7 @@
 
 <p>Using these libraries we are going to read our dataset for data preprocessing.</p>
 
-### Handle Missing Data In Python
+## Handle Missing Data In Python
 
 <p>In our dataset you can see there are two missing values.To handle these missing values Python uses sklearn library.How does this library handles missing data?In python,to handle missing data mean of all the other values present in that column is calculated.For example,the missing value from the column age will get calculated from the average of other age values present in the same column.</p>
 
@@ -26,7 +26,7 @@ imputer = imputer.fit(x[:,1:3])
 We have created an object of Imputer class as imputer.This class has many attributes to handle missing values.</p>
 
 
-### Encode Categorical Data
+## Encode Categorical Data
 
 <p>Categorical data is data which have categories.As machine learnign models are based on mathematical equations,it will be difficult to a machine to read the text values.Hence,we need to encode the categorical data in our dataset.</p>
 <br>
@@ -50,7 +50,7 @@ We have used following classes to encode categorical data:
 	<li><b>OneHotEncoder : </b>Encode categorical integer features using a one-hot aka one-of-K scheme.</li>
 </ul>
 
-### Split Dataset Into Train and Test
+## Split Dataset Into Train and Test
 
 <p>We will split dataset into train and test dataset for machine learning models we are going to build in future.Splinting the data into two parts i.e. Train and Test so that the test data we can use to test the machine learning model and train data will be the training data for machine learning model.
 
