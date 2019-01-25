@@ -61,3 +61,10 @@ from sklearn.cross_validation import train_test_split
 X_train,X_test,Y_train,Y_test = train_test_split(x,y,test_size = 0.2,random_state = 0)
 ```
 <p>This will split the dataset into Train and 20% test dataset i.e.The Test dataset will have 2 records from our dataset.We have done data preprocessing for upcoming machine learning article series. </p>
+
+<ul>
+	<li>x_train : training data of independent variables.</li>
+	<li>x_test : test data for which we want to predict </li>
+	<li>y_train : training data o dependent variable</li>
+	<li>y_test : Actual Result</li>
+</ul>
