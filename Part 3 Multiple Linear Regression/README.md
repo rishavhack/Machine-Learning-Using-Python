@@ -95,3 +95,7 @@ y_pred = regressor.predict(X_test)
 
 In above code snippet we have used data preprocessing template and after splitting dataset into train and test.we have used LinearRegression class from sklearn.linear_model library exactly same as we used in simple linear regression.After executing the above code we will have predicted values for X_test in y_pred that is y_pred will have salaries predicted from the data available in X_test.
 
+# Backward Elimination For Multiple Regression
+
+We learned about multiple linear regression and predicted values of dependent variables based on multiple independent variables. However how can we identify the impact made by a specific independent variable on dependent variable? We can follow backward elimination for multiple linear regression to identify independent variables which have most impact on dependent variables.
+
