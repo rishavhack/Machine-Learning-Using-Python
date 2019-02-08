@@ -1,2 +1,1 @@
-# Linear Regression
-
+# Supervised Learning
