@@ -5,7 +5,7 @@ Created on Mon Nov 26 22:29:19 2018
 
 @author: rishav
 """
-
+import spacy
 import numpy as np
 import pandas as pd
 labels = ['a','b','c']
